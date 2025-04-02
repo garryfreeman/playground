@@ -1,0 +1,13 @@
+{
+  /* Visit https://aka.ms/tsconfig to read more about this file */
+  "extends": "@ur-apps/common/tsconfig",
+  "compilerOptions": {
+    // Language and Environment
+    "target": "ESNext",
+
+    // Modules
+    "baseUrl": "./sandboxes"
+  },
+  "include": ["sandboxes"],
+  "exclude": ["node_modules", "build", "dist", "lib", "**/*.test.ts"]
+}
